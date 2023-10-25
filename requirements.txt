@@ -1,0 +1,5 @@
+joblib
+streamlit_option_menu
+streamlit.components.v1
+imblearn.over_sampling
+scikit-learn
