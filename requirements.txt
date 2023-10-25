@@ -1,4 +1,4 @@
 joblib
 streamlit_option_menu
-imblearn.over_sampling
+imblearn
 scikit-learn
