@@ -102,12 +102,12 @@ if app == "Sentiment-Analysis":
 
     #load the csv file 
     # df=pd.read_csv("C:\Users\Symbiosis\Documents\DATASET-3RD SEM\Google_Reviews.xlsx")
-    tdidf = joblib.load(r"C:\Users\Symbiosis\Downloads\tfidf11 (2).sav")
-    X_train_smote = joblib.load(r"C:\Users\Symbiosis\Downloads\X_train_smote (1).pkl")
-    y_train_smote = joblib.load(r"C:\Users\Symbiosis\Downloads\y_train_smote (1).pkl")
+    tdidf = joblib.load(r"tfidf11 (2).sav")
+    X_train_smote = joblib.load(r"X_train_smote (1).pkl")
+    y_train_smote = joblib.load(r"y_train_smote (1).pkl")
 
     # Load the trained model
-    model= joblib.load(r"C:\Users\Symbiosis\Downloads\random_forest_model (1).pkl")
+    model= joblib.load(r"random_forest_model (1).pkl")
     # if st.button("Analsye") :
     #     a= tdidf.transform(Review)
     #     st.write(a)
