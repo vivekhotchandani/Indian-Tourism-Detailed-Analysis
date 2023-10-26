@@ -12,7 +12,7 @@ with st.sidebar:
                 options=['About','Dashboard','Sentiment-Analysis','Contact'],
                 icons=['info-circle-fill','chat-fill','chat-fill','person-circle'],
                 menu_icon='chat-text-fill',
-                default_index=1
+                default_index=0
                 
             )
             
